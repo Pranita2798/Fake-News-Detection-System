@@ -135,6 +135,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Machine learning community
 - Fact-checking organizations
 
-## 📞 Support
-
-For support, email support@fakenews-detection.com or join our Discord community.
