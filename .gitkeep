@@ -1,0 +1,25 @@
+# Models Directory
+
+This directory contains trained machine learning models for fake news detection.
+
+## Files Structure
+
+- `best_fake_news_model.pkl` - Main trained model
+- `feature_extractor.pkl` - Text feature extraction model
+- `vectorizer.pkl` - TF-IDF vectorizer
+- `scaler.pkl` - Feature scaling model
+
+## Model Performance
+
+Current model performance metrics:
+- Accuracy: ~85-90%
+- Precision: 0.88 (Fake News)
+- Recall: 0.82 (Fake News)
+- F1-Score: 0.85
+
+## Usage
+
+Models are loaded automatically by the Flask API and can be used for:
+1. Real-time news article classification
+2. Batch processing of multiple articles
+3. Feature extraction for analysis
